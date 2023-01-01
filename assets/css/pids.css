@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@400&family=Noto+Sans:wght@400;600&family=Noto+Serif+TC:wght@600;900&display=swap');
+:root {
+    --font-family: "Myriad Pro", "Noto Sans", "Noto Serif TC";
+    --aqua: #C7EBFB;
+    --title-color: #153156;
+}
+
+html, body {
+    overflow-y: hidden;
+}
+
+table {
+    border-spacing: 15px;
+    width: 100%;
+}
+
+tr td {
+    vertical-align: middle;
+    padding: 5px;
+}
+
+#titlebar {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 2.5vh;
+    background-color: var(--title-color);
+    color: white;
+    padding: 0 10px;
+}
+
+#titlebarTB {
+    width: 100%;
+}
+
+#eta {
+    font-size: 2.2vh;
+    font-family: var(--font-family);
+    font-weight: 600;
+}
+
+#eta > tbody > tr:nth-child(2n+1) {
+    background-color: #FFF8F2;
+    border: 1px solid lightgray;
+}
+
+#eta > tbody > tr > td {
+    padding: 0 15px;
+}
+
+#clock {
+    text-align: right;
+    font-size: 2em;
+}
+
+.header {
+    font-family: var(--font-family);
+    font-size: 1.5vh;
+    padding: 5px;
+}
+
+.header td {
+    background-color: lightgray;
+}
+
+.arrRow {
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.multiLine {
+    margin: 5px;
+    line-height: 0em;
+    vertical-align: bottom;
+}
+
+#eta {
+    table-layout: fixed;
+}
+
+#eta > tbody > tr > td:nth-child(1) {
+    width: 12%;
+}
+
+#eta > tbody > tr > td:nth-child(2) {
+    max-width: 30%;
+}
+
+#eta > tbody > tr > td:nth-child(3) {
+    text-align: right;
+    white-space: nowrap;
+    width: 12vh;
+}
+
+.cars {
+    text-align: right;
+    white-space: nowrap;
+}
+
+#eta > tbody > tr > td:nth-child(3) > img {
+    width: 6vh;
+}
+
+#eta > tbody > tr > td:nth-child(4) {
+    width: 11vh;
+    text-align: right;
+}
+
+.sizeZH {
+    font-size: 1.45em;
+}
+
+.sizeDouble {
+    font-size: 2em;
+}
+
+.lineHeightDouble {
+    line-height: 2em;
+}
+
+.platcircle {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 6px;
+    text-align: center;
+    font-size: 1.3em;
+    color: black;
+    background-color: #D3A809;
+    width: 1em;
+    border-radius: 50%;
+}
+
+.plattext {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.stnName {
+    text-align: center;
+}

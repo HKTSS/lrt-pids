@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MTR LRT PIDS Simulator</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/data.js"></script>
+    <script src="./assets/js/configUI.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+
+<body>
+    <div id="main">
+        <div id="config">
+            <h1 class="header">輕鐵資訊顯示屏模擬器</h1>
+            <table>
+                <tr>
+                    <td>
+                        車站<br>Station
+                    </td>
+                    <td>
+                        <select id="stnSel">
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        月台<br>Platform
+                    </td>
+                    <td>
+                        <select id="platSel">
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <button>儲存設定</button>
+        </div>
+        <iframe id="pids" src="pids.html"></iframe>
+    </div>
+</body>
+
+</html>
