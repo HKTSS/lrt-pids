@@ -34,7 +34,7 @@ function updateETARow(arrData) {
         } else {
             let etaMin = "";
             let timetext = "分鐘|min";
-            let carImg = `<img src="/assets/img/lrv.png" alt="LRV Car">`;
+            let carImg = `<img src="./assets/img/lrv.png" alt="LRV Car">`;
             if(entry.ttnt_en.includes("min")) {
                 etaMin = entry.ttnt_en.split(" min")[0];
             } else if(entry.ttnt_en == "-") {
