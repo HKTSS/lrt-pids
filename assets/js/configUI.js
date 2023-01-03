@@ -9,6 +9,7 @@ function updateStationList() {
         option.text = stnData.name.split("|").join(" ");
         stnSel.append(option)
     }
+    updatePlatform();
 }
 
 function updatePlatform() {

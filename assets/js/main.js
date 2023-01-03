@@ -47,7 +47,6 @@ window.onload = (() => {
     let stnSel = document.getElementById("stnSel");
     stnSel.onchange = updatePlatform;
     updateStationList();
-    updatePlatform();
     if(selectedStationId == null || selectedPlatform == null) {
         showConfig();
     }

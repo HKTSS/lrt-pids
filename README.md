@@ -1,7 +1,9 @@
 # MTR Light Rail PIDS Simulator
+### This project is now discontinued. A new version can be found at https://github.com/HKTSS/nlrt-pids
+
 This is an attempt at recreating the Hong Kong Light Rail PIDS.
 
-Config UI is not functional at the moment, please use query parameters:  
+Config UI is not functional at the moment, please use query parameters:
 
 `https://hktss.github.io/lrt-pids?stnId=100&plat=1`
 
